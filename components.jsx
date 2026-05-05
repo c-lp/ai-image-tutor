@@ -147,7 +147,7 @@ function Hero({ content, layout, accent }) {
           <a href="#work" className="kc-btn kc-btn--primary">
             {h.cta} <span className="kc-arrow">→</span>
           </a>
-          <a href="#contact" className="kc-btn kc-btn--ghost">
+          <a href="Kaylee_Oh_CV.pdf" download className="kc-btn kc-btn--ghost">
             {h.cta2}
           </a>
         </div>
@@ -958,7 +958,7 @@ function Contact({ content, accent }) {
         <a href={`mailto:${content.contact.email}`} className="kc-btn kc-btn--primary kc-btn--lg">
           {c.cta} <span className="kc-arrow">→</span>
         </a>
-        <a href="#" className="kc-btn kc-btn--ghost kc-btn--lg" onClick={(e) => e.preventDefault()}>
+        <a href="Kaylee_Oh_CV.pdf" download className="kc-btn kc-btn--ghost kc-btn--lg">
           {c.cta2}
         </a>
       </div>
